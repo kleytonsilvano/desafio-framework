@@ -9,9 +9,9 @@
 -DPASSWORD_DB=1234
 
 ### Pelo tempo ser pequeno, não foi possível realizar os testes e terminar o desafio
-##
-## A idéia seria fazer um Filtro ( JWTFilter) para que todas as requisições tenham que ter no cabeçalho o jwt gerado, em exceção todas que
-## batam no /usuarios/* , onde seria a parte não logada
-## 
+###
+### A idéia seria fazer um Filtro ( JWTFilter) para que todas as requisições tenham que ter no cabeçalho o jwt gerado, em exceção todas que
+### batam no /usuarios/* , onde seria a parte não logada
+### 
 ## Com o token JWT, passaria no header, bateria nas API's e conseguiria autenticar a requisição para o recurso cabível.
-##
+###
