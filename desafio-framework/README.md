@@ -8,8 +8,6 @@
 -DUSERNAME_DB=postgres
 -DPASSWORD_DB=1234
 
-### Pelo tempo ser pequeno, não foi possível realizar os testes e terminar o desafio
-###
 ### A idéia seria fazer um Filtro ( JWTFilter) para que todas as requisições tenham que ter no cabeçalho o jwt gerado, em exceção todas que
 ### batam no /usuarios/* , onde seria a parte não logada
 ### 
